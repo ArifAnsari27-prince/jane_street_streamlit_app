@@ -16,3 +16,6 @@ streamlit run app.py
 
 ## Data
 The app reads local CSV files from `data/`.
+
+## Link to live Dashboard
+jsindiadashboard.streamlit.app
