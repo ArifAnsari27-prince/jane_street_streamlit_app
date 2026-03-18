@@ -1,0 +1,11 @@
+timestamp,event,banknifty_level_approx,js_action,segment,details
+09:15:00,market_open,46072,Patch I begins - aggressive buying,cash+futures,"HDFC Bank earnings miss drives index down at open; JS begins buying all 12 BANKNIFTY constituents"
+09:15:00-09:22:00,patch_i_buying,46072-47177,Net buyer in all 12 stocks,cash,"JS contributes +272 index points across bank stocks vs -249 from all other participants"
+09:15:00-09:22:00,patch_i_buying,,Net buyer in stock futures,futures,"Total positions of INR 4370.03 crore in BANKNIFTY constituents across cash+futures"
+09:15:00-09:22:00,patch_i_options,,Short ATM calls + long ATM puts,index_options,"Strikes around 46900-47200; call premiums depressed; put premiums inflated by index move"
+09:22:00,patch_i_ends,47177,Transition period,,"JS was single biggest net buyer in all 12 BANKNIFTY component stocks during Patch I"
+11:45:00,patch_ii_begins,,Position reversal starts,cash+futures,"JS becomes largest net seller"
+11:49:00-15:30:00,patch_ii_selling,,Aggressive selling,cash,"INR 1858.78 crore sold in banking stocks (cash segment)"
+11:49:00-15:30:00,patch_ii_selling,,Aggressive selling,futures,"INR 3513.34 crore sold via index futures"
+15:29:00,near_close,,Options positions profit realized,index_options,"ATM 47000 Call: opened ~350 -> ~65 by close; ATM 47000 Put: ~145 -> ~312 by close"
+15:30:00,market_close,,Day ends,all,"Intraday loss of ~INR 61.6 crore on equity/futures; NET PROFIT: INR 734.93 crore from options"

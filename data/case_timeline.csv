@@ -1,0 +1,20 @@
+event_date,event_type,description,source
+2020-12-01,incorporation,JSI Investments Pvt Ltd incorporated in Mumbai,SEBI Interim Order
+2023-01-01,examination_start,Start of SEBI examination period,SEBI Interim Order
+2023-08-31,first_impugned_day,First impugned trading day - BANKNIFTY intraday manipulation,SEBI Table 44
+2024-01-17,peak_profit_day,Highest single-day profit: INR 734.93 crore on BANKNIFTY,SEBI Table 44
+2024-04-01,us_lawsuit_filed,Jane Street files trade-secrets suit vs Millennium Management in SDNY,SEBI Interim Order / Reuters
+2024-04-15,media_reports,Media reports reveal India-focused options strategy generating ~$1B profit,Reuters/Bloomberg
+2024-07-10,last_exam_impugned,Last impugned day within examination period - BANKNIFTY extended close,SEBI Table 44
+2024-07-23,nse_examination,NSE asked to examine JS Group trading activity,SEBI Interim Order Table 1
+2024-08-01,nse_report,NSE submits examination report to SEBI,SEBI Interim Order Table 1
+2024-12-01,us_settlement,Jane Street-Millennium trade secrets case settled,Reuters
+2025-02-06,caution_letter,Caution letter issued to Jane Street entities by NSE,SEBI Interim Order
+2025-03-31,examination_end,End of SEBI examination period,SEBI Interim Order
+2025-05-08,post_exam_day1,First post-examination impugned day - NIFTY extended close (INR 3.07 crore),SEBI Table 44
+2025-05-15,post_exam_day2,Second post-examination day - NIFTY extended close (INR 167.53 crore),SEBI Table 44
+2025-05-22,post_exam_day3,Third post-examination day - NIFTY extended close (INR 199.36 crore),SEBI Table 44
+2025-07-03,interim_order,SEBI issues interim order - impounds INR 4843.57 crore,SEBI Interim Order
+2025-07-04,escrow_compliance,Conditional restrictions upon escrow compliance,SEBI/NSE Circular
+2025-11-17,appeal_data_dispute,Reuters reports SEBI to oppose data release in SAT appeal,Reuters
+2026-02-25,sat_hearing,SAT hearing adjourned due to time constraints - case ongoing,Reuters

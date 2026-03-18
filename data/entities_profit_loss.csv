@@ -1,0 +1,6 @@
+entity_id,entity_name,pan,jurisdiction,incorporation_region,index_options_crore,index_futures_crore,stock_options_crore,stock_futures_crore,cash_segment_crore,total_profit_crore
+E1,Jane Street Asia Trading Limited,AAECJ7368M,FPI,Hong Kong,7650.34,-85.62,34.82,-668.87,-1.12,6929.56
+E2,JSI2 Investments Private Limited,AAGCJ5786R,Domestic,India,-168.67,0.00,0.00,0.00,0.00,-168.67
+E3,JSI Investments Private Limited,AAFCJ0285L,Domestic,India,4392.03,0.00,-0.37,0.00,-287.05,4104.61
+E4,Jane Street Singapore Pte Limited,AAGCJ1682G,FPI,Singapore,31415.63,-105.19,865.54,-6539.36,0.00,25636.62
+TOTAL,All Entities Combined,,,,43289.33,-190.81,899.99,-7208.23,-288.17,36502.12

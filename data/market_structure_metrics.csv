@@ -1,0 +1,17 @@
+metric,value,unit,context,source_table
+banknifty_cash_turnover_12_constituents,29225,crore_inr,"Cash market total traded turnover in 12 BANKNIFTY constituents on Jan 17 2024",Table 2
+banknifty_futures_turnover_12_constituents,43589,crore_inr,"Futures market total traded turnover in 12 BANKNIFTY constituent stock futures",Table 2
+banknifty_index_futures_turnover,32607,crore_inr,"Futures market traded turnover in BANKNIFTY index futures",Table 2
+banknifty_options_cash_equivalent,10315907,crore_inr,"Cash-equivalent traded turnover in BANKNIFTY index options",Table 2
+ratio_options_to_cash,353,times,"Relative size of BANKNIFTY options market to cash market",Table 2
+ratio_options_to_combined,98,times,"Relative size of BANKNIFTY options to cash+futures+index futures combined",Table 2
+unique_entities_index_options,1615011,count,"Unique entities trading BANKNIFTY index options on Jan 17 2024",Table 3
+unique_entities_cash_top3,4675,count,"Unique entities in cash market of top 3 BANKNIFTY constituents",Table 3
+js_patch_i_total_position,4370.03,crore_inr,"JS Group total position in BANKNIFTY constituents during Patch I (cash+futures)",Para 16
+js_patch_ii_cash_sold,1858.78,crore_inr,"JS Group cash segment selling during Patch II",Para 20
+js_patch_ii_futures_sold,3513.34,crore_inr,"JS Group index futures selling during Patch II",Para 20
+js_intraday_equity_futures_loss,61.6,crore_inr,"JS Group intraday loss on equity/futures trades (cost of manipulation)",Para 20
+js_day_net_profit,734.93,crore_inr,"JS Group net profit on Jan 17 2024 from index options",Table 44
+total_illegal_gains_all_days,4843.57,crore_inr,"Total alleged illegal gains across all 21 impugned days",Para 42/Table 44
+total_exam_period_index_options_profit,43289.33,crore_inr,"Total index options profit during full examination period",Table 4
+intraday_loss_15_manipulation_days,199.7,crore_inr,"Total intraday equity/futures loss across 15 intraday manipulation days",Para 38

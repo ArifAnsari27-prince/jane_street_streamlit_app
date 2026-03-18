@@ -1,0 +1,22 @@
+date,index,strategy,profit_inr,profit_crore,sr_no,examination_period
+2023-08-31,BANKNIFTY,Intra-day Index Manipulation,19158806920,191.59,1,yes
+2023-09-13,BANKNIFTY,Intra-day Index Manipulation,21217986220,212.18,2,yes
+2023-09-20,BANKNIFTY,Intra-day Index Manipulation,23313291170,233.13,3,yes
+2023-09-28,BANKNIFTY,Intra-day Index Manipulation,24168874390,241.69,4,yes
+2023-10-04,BANKNIFTY,Extended Marking the Close,16367112140,163.67,5,yes
+2023-10-18,BANKNIFTY,Intra-day Index Manipulation,31732612620,317.33,6,yes
+2023-10-26,BANKNIFTY,Intra-day Index Manipulation,25912214920,259.12,7,yes
+2023-12-06,BANKNIFTY,Intra-day Index Manipulation,15090177420,150.90,8,yes
+2024-01-03,BANKNIFTY,Intra-day Index Manipulation,16465184930,164.65,9,yes
+2024-01-17,BANKNIFTY,Intra-day Index Manipulation,73492695780,734.93,10,yes
+2024-03-06,BANKNIFTY,Intra-day Index Manipulation,19704918420,197.05,11,yes
+2024-04-16,BANKNIFTY,Intra-day Index Manipulation,17027296010,170.27,12,yes
+2024-05-08,BANKNIFTY,Intra-day Index Manipulation,17100786020,171.01,13,yes
+2024-05-15,BANKNIFTY,Intra-day Index Manipulation,16071519180,160.72,14,yes
+2024-05-29,BANKNIFTY,Intra-day Index Manipulation,25855357760,258.55,15,yes
+2024-06-19,BANKNIFTY,Extended Marking the Close,32244610150,322.45,16,yes
+2024-07-03,BANKNIFTY,Intra-day Index Manipulation,29903410490,299.03,17,yes
+2024-07-10,BANKNIFTY,Extended Marking the Close,22535136560,225.35,18,yes
+2025-05-08,NIFTY,Extended Marking the Close,306656210,3.07,19,no
+2025-05-15,NIFTY,Extended Marking the Close,16752811130,167.53,20,no
+2025-05-22,NIFTY,Extended Marking the Close,19936242430,199.36,21,no
