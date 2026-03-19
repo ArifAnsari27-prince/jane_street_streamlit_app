@@ -151,6 +151,148 @@ def overview_cards():
                 unsafe_allow_html=True,
             )
 
+def render_landing_page():
+    st.markdown("<div class='panel-card'>", unsafe_allow_html=True)
+
+    st.markdown(
+        """
+        <div class='section-title'>Start here</div>
+        <div class='insight-card'>
+          <h4>What this app does</h4>
+          <p>
+            This platform reconstructs the Jane Street India case as a market microstructure research surface.
+            It combines case chronology, impugned-day analysis, a January 17 session reconstruction,
+            entity/PAN-level economics, a mechanistic simulator, a footprint scoring framework,
+            and a research extension layer for comparable patterns in other markets.
+          </p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    c1, c2 = st.columns([1.2, 1], gap="large")
+
+    with c1:
+        st.markdown(
+            """
+            <div class='insight-card blue'>
+              <h4>How to navigate</h4>
+              <p>
+                Use the top tab bar to move through the app from left to right:
+                <br><br>
+                <b>Overview</b> — case structure, timeline, and pattern counts
+                <br><b>Impugned Days</b> — day-level event table and profit visualization
+                <br><b>Jan 17 Reconstruction</b> — reconstructed intraday sequence and event log
+                <br><b>Entities & Economics</b> — entity/PAN structure and segment-level contribution
+                <br><b>Mechanistic Simulator</b> — stylized delta/gamma/impact model
+                <br><b>Footprint Scoring</b> — surveillance-style attribution engine
+                <br><b>Microstructure & Frontier Research</b> — why this matters beyond India
+                <br><b>Data Room</b> — inspect and download working datasets
+              </p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+        st.markdown(
+            """
+            <div class='insight-card green'>
+              <h4>How to use the workflow</h4>
+              <p>
+                A strong reading path is:
+                <br>1. Start with <b>Overview</b> to understand the case architecture
+                <br>2. Move to <b>Impugned Days</b> to identify recurring patterns
+                <br>3. Use <b>Jan 17 Reconstruction</b> to study a concrete session
+                <br>4. Review <b>Entities & Economics</b> for organizational and segment context
+                <br>5. Use the <b>Mechanistic Simulator</b> to stress the two-leg mechanism
+                <br>6. Use <b>Footprint Scoring</b> to evaluate pattern similarity
+                <br>7. Finish with <b>Microstructure & Frontier Research</b> for transferability
+              </p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+    with c2:
+        st.markdown(
+            """
+            <div class='insight-card yellow'>
+              <h4>What is inside the app</h4>
+              <p>
+                <b>Case reconstruction:</b> timeline, impugned days, and representative-session structure
+                <br><b>Economic decomposition:</b> segment-level profit/loss and entity mapping
+                <br><b>Mechanism modeling:</b> a stylized simulator for index move, convexity, and impact
+                <br><b>Attribution logic:</b> a footprint score built from concentration, timing, and reversal features
+                <br><b>Microstructure research:</b> tools for understanding how asymmetric market design can matter
+                <br><b>Transferability:</b> research framing for similar patterns in South Korea block-trade settings and crypto
+              </p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+        st.markdown(
+            """
+            <div class='insight-card'>
+              <h4>Why this matters</h4>
+              <p>
+                The app is designed to help you study how pressure in a smaller underlying market can interact
+                with a much larger derivatives complex, how settlement windows matter, and how repeated execution
+                fingerprints can be translated into reusable market-structure research.
+              </p>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+    st.markdown(
+        """
+        <div class='panel-card' style="margin-top: 1rem;">
+            <div class='section-title'>Section map</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    map_cols = st.columns(4)
+    section_map = [
+        ("Overview", "Case chronology, structure, pattern counts, and high-level asymmetries."),
+        ("Impugned Days", "Profit-ranked and strategy-tagged event surface across the identified days."),
+        ("Jan 17 Reconstruction", "Representative session reconstruction showing phase transitions."),
+        ("Entities & Economics", "PAN-linked entity view and contribution by market segment."),
+        ("Mechanistic Simulator", "Stylized educational model for delta/gamma/impact interaction."),
+        ("Footprint Scoring", "Pattern attribution layer using concentration and timing-based features."),
+        ("Microstructure & Frontier Research", "Transferability to India-like markets, South Korea, and crypto."),
+        ("Data Room", "Raw and curated datasets for review, export, and extension."),
+    ]
+
+    for i, (title, text) in enumerate(section_map):
+        with map_cols[i % 4]:
+            st.markdown(
+                f"""
+                <div class='insight-card' style="min-height: 180px;">
+                  <h4>{title}</h4>
+                  <p>{text}</p>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+
+    st.markdown(
+        """
+        <div class='insight-card blue'>
+          <h4>Navigation note</h4>
+          <p>
+            This landing page is the first tab in the interface. After reviewing it, navigate using the tab bar above.
+            The app is structured so that the research story moves from context → evidence → mechanism → scoring → broader market interpretation.
+          </p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    st.markdown("</div>", unsafe_allow_html=True)
+
 
 def make_timeline_chart(df):
     t = df.copy()
@@ -314,11 +456,14 @@ style_header()
 overview_cards()
 
 section_tabs = st.tabs([
-    'Overview', 'Impugned Days', 'Jan 17 Reconstruction', 'Entities & Economics',
+    'Start Here','Overview', 'Impugned Days', 'Jan 17 Reconstruction', 'Entities & Economics',
     'Mechanistic Simulator', 'Footprint Scoring', 'Microstructure & Frontier Research', 'Data Room'
 ])
 
 with section_tabs[0]:
+    render_landing_page()
+
+with section_tabs[1]:
     left, right = st.columns([1.15, 1], gap='large')
     with left:
         st.markdown("<div class='panel-card'>", unsafe_allow_html=True)
